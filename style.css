@@ -5,7 +5,7 @@ body{
     align-items: center;
     flex-direction: column;
     background-color: hsl(185, 75%, 39%);
-    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+    background-image: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg');
     background-position-x: -20rem, 40rem;
     background-position-y: -40rem, 20rem;
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-image: url(/images/bg-pattern-card.svg);
+    background-image: url('./images/bg-pattern-card.svg');
     color:  hsl(229, 23%, 23%);
 }
 
